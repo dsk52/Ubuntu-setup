@@ -71,3 +71,30 @@ $ LANG=C xdg-user-dirs-gtk-update
 出てきたポップアップの内容を確認してUpdateなボタンをクリック
 
 https://www.rough-and-cheap.jp/linux/ubuntu-change-xdg-directory-name/
+
+
+
+## Node.js setup
+
+nvm install
+
+```
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
+```
+
+fish setting
+
+```
+$ fisher install jorgebucaran/nvm.fish
+
+
+$ nvm use lts
+```
+
+ex.
+$ node -v > .nvmrc
+$ nvm
+
+$ node -v
+14.15.0
+
